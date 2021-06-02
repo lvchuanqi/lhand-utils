@@ -1,7 +1,7 @@
 const path = require("path");
 module.exports = {
   // 模式
-  mode: "development", // 也可以使用 production
+  mode: "production", // 也可以使用 production
   // 入口
   entry: "./src/index.js",
   // 出口
