@@ -1,0 +1,19 @@
+{
+  "name": "lhand-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/lhand-utils.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:watch": "webpack --watch"
+  },
+  "keywords": [
+    "lhand-utils"
+  ],
+  "author": "LvChuanQi",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
