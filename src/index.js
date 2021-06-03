@@ -1,12 +1,15 @@
-/**
- * 数组工具类 - Array
- */
-/*unique 数组去重*/
-import { unique } from "./array/unique";
+//函数节流
+import throttle from "./fnuc/throttle";
+import debounce from "./fnuc/debounce";
+//数据去重
+import { uniqueBySet } from "./array/unique";
 
-export const lHands = {
+const lHands = {
   version() {
     console.log("lhand-utils version:1.0.0");
   },
-  unique,
+  throttle,
+  debounce,
+  uniqueBySet,
 };
+export default lHands;
